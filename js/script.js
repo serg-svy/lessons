@@ -66,14 +66,14 @@
 // const arr = ['a', 'b', 'c'];
 // arr [10] = '3456';
 // console.log(arr);
-const storeName = 'My awesome store';
+// const storeName = 'My awesome store';
 
-const storeDescription = {
-    budget: 10000,
-    employees:[ 'Alex', 'John', 'Sergey'],
-    products: {
-        'soap': 20,
-        'water': 5
-    },
-    open: true
-}
+// const storeDescription = {
+//     budget: 10000,
+//     employees:[ 'Alex', 'John', 'Sergey'],
+//     products: {
+//         'soap': 20,
+//         'water': 5
+//     },
+//     open: true
+// }
