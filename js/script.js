@@ -1,4 +1,6 @@
 "use strict";
+import ex from "./example.js"
+console.log(ex)
 
 // let number  = 5;
 // const leftBorderWidth  = 1;
