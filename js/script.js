@@ -1,6 +1,41 @@
 "use strict";
-import ex from "./example.js"
-console.log(ex)
+
+
+const value = 5 ;
+// let message;
+
+// if (value > 8 && value < 15){
+//     message = 'в диапазоне от 8 до 15'
+// } else {
+//     message = 'вне диапазона'
+// }
+
+console.log(value > 8 && value < 15 ? 'в диапазоне от 8 до 15' : 'вне диапазона')
+
+
+
+
+
+// const value = 10;
+
+// switch (value) {
+//   case 9: {
+//     console.log("Value is 9");
+//     break;
+//   }
+//   case 10: {
+//     console.log("Value is 10");
+//     break;
+//   }
+//   default:
+//     console.log("Help me");
+// }
+
+
+
+
+
+
 
 // let number  = 5;
 // const leftBorderWidth  = 1;
