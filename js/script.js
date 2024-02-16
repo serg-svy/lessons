@@ -1,7 +1,18 @@
 "use strict";
 
 
-const value = 5 ;
+const str = "hello world";
+let i = 0;
+while (i < 10) {
+    console.log(str[i]);
+    i++;
+}
+
+
+
+
+
+
 // let message;
 
 // if (value > 8 && value < 15){
@@ -10,7 +21,7 @@ const value = 5 ;
 //     message = 'вне диапазона'
 // }
 
-console.log(value > 8 && value < 15 ? 'в диапазоне от 8 до 15' : 'вне диапазона')
+// console.log(value > 8 && value < 15 ? 'в диапазоне от 8 до 15' : 'вне диапазона')
 
 
 
