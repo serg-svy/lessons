@@ -1,8 +1,19 @@
 "use strict";
 
+function countVowel(str){
+    const vowels = "aeiouw";
+    let vowelsCounter = 0;
+
+    for (let i = 0; i<str.length; i++){
+        if(vowels.includes(str[i].toLowerCase())){
+            vowelsCounter++;
+        }
+    }
+    return vowelsCounter;
+}
 
 
-
+console.log(countVowel("J"));
 
 // const str = "hello world";
 // let i = 0;
