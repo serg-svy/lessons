@@ -1,10 +1,32 @@
 "use strict";
-const arr = [1, 2, 3, 4, 5, 6];
+const courses = ['HTML', 'CSS', 'JavaScript'];
 
+function arrayItemsToLowerCase(arr) {
+    return arr.map(item => item.toLowerCase());
+}
+function removeCourse(name){
+    const arr = arrayItemsToLowerCase(courses);
+    const alemIndex = arr.indexOf(name.toLowerCase());
 
-for (let i = 0; i < arr.length; i++){
-    console.log(arr[i]);
+    if (elemIndex !== -1){
+        courses.splice(elemIndex, 1);
+    } else {
+        return 'Curs iz takim im\'yam ne naiden';
+    }
 }
 
 
+function updateCourse(oldName, newName){
+    const arr = arrayItemsToLowerCase(courses);
+    const elemIndex = arr.indexOf(oldName.toLowerCase());
 
+    if (elemIndex !== -1) {
+        courses.splice(elemIndex, 1, newName);
+    } else {
+        return "Curs iz takim im'yam ne znayden";
+    }
+}
+
+updateCourse('HTML' , 'NestJS');
+console.log(updateCourse('qwerty', 'NestJS'));
+console.log(courses);
